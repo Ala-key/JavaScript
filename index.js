@@ -13,3 +13,9 @@ areaCone(10,2,3);
 function getStringLength(str) {
     return str.length();
 }
+getStringLength("Hello World");
+
+
+function printDigitOddorEven(params) {
+    
+}
