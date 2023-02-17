@@ -32,6 +32,8 @@ function squareIt(number) {
 
 console.log(squareIt(5));
 
-function getSqrtDigit(params) {
-    
+function getSqrtDigit(value) {
+    return Math.sqrt(value);
 }
+
+getSqrtDigit(2);
