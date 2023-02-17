@@ -16,6 +16,12 @@ function getStringLength(str) {
 getStringLength("Hello World");
 
 
-function printDigitOddorEven(params) {
-    
+function printDigitOddorEven(value) {
+    if (value % 2 == 0) {
+        console.log("Even");
+    } else {
+        console.log("Odd");
+    }
 }
+
+printDigitOddorEven(2);
