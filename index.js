@@ -40,5 +40,5 @@ getSqrtDigit(2);
 
 
 function getAreaPentagon(a,b,c,d,e) {
-    return
+    return a + b + c + d + e;
 }
